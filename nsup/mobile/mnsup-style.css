@@ -1,0 +1,31 @@
+@font-face {
+  font-family: main;
+  src: url("fonts/mainfont/DEFAULT.otf");
+}
+:root {
+  --bgClr: #2f3032;    /* background    */
+  --bgClr2: #202427;   /* divs          */
+  --txtClr: #c4d2ee;   /* headers       */
+  --txtClr2: #809399;  /* paragraphs    */
+  --hltClr: #33aae6;   /* highlights    */
+  --hltClr2: #297bae;  /* highlights    */
+  --intensity: 0.5;      /* shaddow       */
+  --radius: 10px;        /* border radius */
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: main;
+  font-size: 50px;
+  color: var(--txtClr);
+  text-align: center;
+}
+body {
+  background: var(--bgClr);
+}
+p {
+  color: var(--txtClr2);
+  text-align: center;
+}
