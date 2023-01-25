@@ -23,6 +23,7 @@
 }
 body {
   background: var(--bgClr);
+  scroll-behavior: smooth;
 }
 .header {
   background-image: url("assets/bg.png");

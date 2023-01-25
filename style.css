@@ -36,6 +36,7 @@
 }
 body {
   background-color: var(--bgClr);
+  scroll-behavior: smooth;
 }
 .header {
   display: flex;
@@ -232,7 +233,7 @@ body {
 .btn-s1:hover {
   font-family: para-B;
   padding: 10px 60px;
-  transform: scale(115%);
+  transform: scale(110%);
   background: var(--hltClr);
   color: var(--bgClr2);
 }
